@@ -61,15 +61,15 @@ body {
 }
 
 .eth-card {
-  background-color:#a099ff;
+  background-color:#000000;
   background-image: 
-    radial-gradient(at 83% 67%, rgb(152, 231, 156) 0, transparent 58%), 
-    radial-gradient(at 67% 20%, hsla(357,94%,71%,1) 0, transparent 59%), 
-    radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%), 
-    radial-gradient(at 31% 91%, hsla(9,61%,61%,1) 0, transparent 52%), 
-    radial-gradient(at 27% 71%, hsla(336,91%,65%,1) 0, transparent 49%), 
-    radial-gradient(at 74% 89%, hsla(30,98%,65%,1) 0, transparent 51%), 
-    radial-gradient(at 53% 75%, hsla(174,94%,68%,1) 0, transparent 45%);
+  radial-gradient(at 83% 67%, rgb(99 62 144) 0, transparent 58%), 
+  radial-gradient(at 67% 20%, hsl(357deg 7.81% 65.07%) 0, transparent 59%), 
+  radial-gradient(at 88% 35%, hsl(0deg 0% 0%) 0, transparent 50%), 
+  radial-gradient(at 31% 91%, hsl(235.24deg 48.75% 59.53% / 41%) 0, transparent 52%), 
+  radial-gradient(at 27% 71%, hsl(336deg 28.8% 85.62%) 0, transparent 49%), 
+  radial-gradient(at 74% 89%, hsl(30deg 31.88% 4.38%) 0, transparent 51%), 
+  radial-gradient(at 53% 75%, hsl(0deg 0% 0%) 0, transparent 45%)
 }
 
 .text-gradient {
@@ -77,6 +77,17 @@ body {
   background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+input {
+  background-color: rgb(220 220 220 / 85%) !important;
+  color: rgb(0, 0, 0) !important;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+input::placeholder {
+  color: gray;
 }
 
 @tailwind base;
